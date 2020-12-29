@@ -2,3 +2,985 @@
 font-family: 'Playfair Display', serif; contactus
 font-family: 'Overpass Mono', monospace; numeral
 font-family: 'Playfair Display SC', serif; BLACKSILVER */
+*{
+    font-family: 'Jost', sans-serif;
+}
+.um{
+    position: relative;
+    background-image: url('../img/capa.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 139%;
+    background-position-y: center;
+    padding-bottom: 46%;
+}
+.m{
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+.m1{
+    position: absolute;
+    top: 8%;
+    left: 20%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+.m2{
+    position: absolute;
+    top: 8%;
+    left: 30%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+.m3{
+    position: absolute;
+    top: 8%;
+    left: 60%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+.m4{
+    position: absolute;
+    top: 8%;
+    left: 70%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+.m5{
+    position: absolute;
+    top: 8%;
+    left: 80%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+.logo{
+    width: 19%;
+    position: absolute;
+    top: 3%;
+    left: 39%;
+}
+
+h1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 101px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 56%;
+    left: 29%;
+    font-weight: 300;
+}
+.dois{
+    position: relative;
+}
+.espa{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-left: 2%;
+    width: 1%;
+    position: absolute;
+    top: 8%;
+    left: 42%;
+    
+}
+.espa1{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-left: 2%;
+    width: 1%;
+    position: absolute;
+    top: 8%;
+    left: 55%;
+}
+h2{
+    margin-top: 10%;
+    color: rgb(207, 7, 7);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 6px;
+ 
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 87px;
+    text-align: center;
+    margin-top: 1%;
+  
+}
+h4{
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    font-weight: 200;
+    margin-top: -4%;
+}
+.tres{
+    display: flex;
+    flex-direction: row;
+}
+.capuz{
+    width: 60%;
+    height: 50%;
+}
+.tress{
+    background-color: rgb(179, 179, 179);
+    width: 50%;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 66px;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 6%;
+    margin-left: 15%;
+}
+h5{
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+    line-height: 31px;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+h6{
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+    line-height: 31px;
+    text-align: left;
+    font-weight: 400;
+    margin-top: 4%;
+    margin-left: 15%;
+
+}
+.view{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 4%;
+    margin-left: 15%;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+.view:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.quatro{
+    display: flex;
+    flex-direction: row;
+}
+.q1,.q2,.q3{
+    margin-top: 7%;
+    margin-left: 9%;
+    text-align: center;
+}
+.circulo{
+    font-size: 68px;
+}
+.num{
+    font-family: 'Overpass Mono', monospace;
+    font-size: 68px;
+    margin-top: 25%;
+}
+.titulo{
+    font-family: 'Playfair Display',serif;
+    font-size: 48px;
+    margin-top: 15%;
+
+}
+.texto{
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 300;
+    margin-top: 15%;
+    margin-bottom: 60%;
+}
+.cinco{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5%;
+    position: relative;
+}
+.lupa1{
+    position:absolute;
+    top: 41%;
+    left: 12%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom:1%;
+
+
+}
+.lupa2{
+    position:absolute;
+    top: 41%;
+    left: 32%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom:1%;
+}
+.lupa3{
+    position:absolute;
+    top: 41%;
+    left: 51%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom:1%;
+}
+.lupa4{
+    position:absolute;
+    top: 41%;
+    left: 70%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom:1%;
+}
+.lupa5{
+    position:absolute;
+    top: 41%;
+    left: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom:1%;
+}
+.lupa1:hover{
+    background-color: rgba(255, 255, 255, 0.685);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.lupa2:hover{
+    background-color: rgba(255, 255, 255, 0.685);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.lupa3:hover{
+    background-color: rgba(255, 255, 255, 0.685);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.lupa4:hover{
+    background-color: rgba(255, 255, 255, 0.685);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.lupa5:hover{
+    background-color: rgba(255, 255, 255, 0.685);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.bw11,.bw12,.bw13,.bw14{
+    width: 50%;
+    height: 2%;
+    margin-left: 5%;
+}
+.bw1{
+    width: 130%;
+    margin-left: -8%;
+}
+.bw2{
+    width: 115%;
+    margin-left: 5%;
+}
+.bw3{
+    width: 115%;
+    margin-left: 5%;
+}
+.bw4{
+    width: 115%;
+    margin-left: 5%;
+}
+
+.bw15{
+    background-image: url('../img/bw-5.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 98%;
+    width: 64%;
+    margin-left: 5%;
+}
+.seis{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7%;
+    margin-right: 7%;
+    position: relative;
+}
+.s1{
+    width: 46%;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+.lupa11{
+    position:absolute;
+    top: 51%;
+    left: 25%;
+    background-color: rgba(253, 25, 25, 0);
+    color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom:2%;
+}
+.lupa22{
+    position:absolute;
+    top: 51%;
+    left: 74%;
+    background-color: rgba(255, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom:2%;;
+}
+.lupa11:hover{
+    background-color: rgba(255, 255, 255, 0.685);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.lupa22:hover{
+    background-color: rgba(255, 255, 255, 0.685);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.sete{
+    background-image: url('../img/one-page-hero-vi.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 240%;
+    background-position-y: 54%;
+    margin-top: 15%;
+    position: relative;
+  
+}
+
+.sete1{
+    position: relative;
+    padding-top: 5%;
+    color: rgb(102, 102, 102);
+}
+.espa2{
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding-left: 2%;
+    width: 1%;
+    position: absolute;
+    top: 53%;
+    left: 41%;
+    
+}
+.espa3{
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding-left: 2%;
+    width: 1%;
+    position: absolute;
+    top: 53%;
+    left: 56%;
+}
+.oito1{
+    margin-top: 10%;
+    color: rgb(207, 7, 7);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 6px;
+ 
+}
+.oito2{
+    font-family: 'Playfair Display', serif;
+    font-size: 87px;
+    text-align: center;
+    margin-top: 1%;
+    color: rgb(223, 223, 223);
+  
+}
+.oito3{
+    color: rgb(223, 223, 223);
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    font-weight: 200;
+    margin-top: -4%;
+}
+.view1{
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 4%;
+    margin-left: 44%;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: rgb(223, 223, 223);
+    z-index: 2000;
+}
+.view1:hover{
+    background-color: rgb(223, 223, 223);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.sete2{
+    display: flex;
+    flex-direction: row;
+}
+.q11,.q21,.q31{
+    margin-top: 7%;
+    margin-left: 9%;
+    text-align: center;
+}
+.circuloo{
+    font-size: 68px;
+    color: rgb(223, 223, 223);
+}
+
+.titulo1{
+    font-family: 'Playfair Display',serif;
+    font-size: 48px;
+    margin-top: 15%;
+    color: rgb(223, 223, 223);
+
+
+}
+.texto1{
+    color: rgb(223, 223, 223);
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 300;
+    margin-top: 15%;
+    margin-bottom: 60%;
+}
+.top{
+   transform: rotate(180deg);
+   margin-bottom: -15%;
+   margin-top: 14%;
+}
+.oito{
+    position: relative;
+}
+.espa5{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-left: 2%;
+    width: 1%;
+    position: absolute;
+    top: 5%;
+    left: 39%;
+    
+}
+.espa6{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-left: 2%;
+    width: 1%;
+    position: absolute;
+    top: 5%;
+    left: 57%;
+}
+.st{
+    position: relative;
+}
+.sta{
+    border-radius: 50%;
+    padding: 2%;
+    width: 9%;
+    margin-left: 44%;
+}
+.staa{
+    border: 1px solid rgb(51, 50, 50);
+    border-radius: 50%;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 6%;
+    margin-left: 44%;
+    position: absolute;
+    top:11.1%;
+    left: 1.4%;
+}
+.titulo11{
+    font-family: 'Playfair Display', serif;
+    font-size: 37px;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 0%;
+
+}
+.titulo22{
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    color: rgb(117, 116, 116);
+    margin-left: 0%;
+    text-align: center;
+    margin-top: -1%;
+    line-height: 27px;
+}
+.nove{
+    background-image: url("../img/onepage-contact-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 10%;
+    margin-top: 10%;
+}
+.oito1{
+    margin-top: 10%;
+    color: rgb(223, 223, 223);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 6px;
+ 
+}
+.espa26{
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding-left: 2%;
+    width: 1%;
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    
+}
+.espa36{
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding-left: 2%;
+    width: 1%;
+    position: absolute;
+    top: 50%;
+    left: 56%;
+}
+form{
+    margin-top: 19%;
+    margin-bottom: 10%;
+    position: relative;
+}
+input[name="nom"]{
+    position: absolute;
+    top: -75%;
+    left: 12%;
+    height: 60px;
+    width: 36.5%;
+    border-radius: 12px;
+    border: 1px solid rgb(141, 141, 141);
+    padding-left: 1%;
+}
+ .nom1{
+    position: absolute;
+    top: -68%;
+    left: 48%;
+ }
+
+input[name="sobre"]{
+    position: absolute;
+    top: -75%;
+    left: 50%;
+    height: 60px;
+    width: 37.5%;
+    border-radius: 12px;
+    border: 1px solid rgb(141, 141, 141);
+    padding-left: 1%;
+ 
+}
+.nom2{
+    position: absolute;
+    top: -68%;
+    left: 87%;
+ }
+input[type=email]{
+    position: absolute;
+    top: -49%;
+    left: 12%;
+    height: 60px;
+    width: 36.5%;
+    border-radius: 12px;
+    border: 1px solid rgb(141, 141, 141);
+    padding-left: 1%;
+   
+}
+.mail{
+    position: absolute;
+    top: -42%;
+    left: 48%;
+ }
+input[type=tel] {
+    position: absolute;
+    top: -49%;
+    left: 50%;
+    height: 60px;
+    width: 37.5%;
+    border-radius: 12px;
+    border: 1px solid rgb(141, 141, 141);
+    padding-left: 1%;
+ 
+}
+.phone1{
+    position: absolute;
+    top: -42%;
+    left: 87%;
+ }
+input[name="titu"]{
+    position: absolute;
+    top: -23%;
+    left: 12%;
+    height: 60px;
+    width: 75.5%;
+    border-radius: 12px;
+    border: 1px solid rgb(141, 141, 141);
+    padding-left: 1%;
+ 
+}
+.note1{
+    position: absolute;
+    top: -14%;
+    left: 87%;
+ }
+textarea{
+    padding-left: 1%;
+    padding-top: 1%;
+    border-radius: 12px;
+    border: 1px solid rgb(141, 141, 141);
+    margin-left: 12%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+.note2{
+    position: absolute;
+    top: 12%;
+    left: 87%;
+ }
+input[name="fi"]{
+    position: absolute;
+    top: 100%;
+    left: 12%;
+    height: 60px;
+    width: 75.5%;
+    border-radius: 12px;
+    border: 1px solid rgb(141, 141, 141);
+    padding-left: 1%;
+ 
+}
+.note3{
+    position: absolute;
+    top: 108%;
+    left: 87%;
+ }
+.send{
+    position: absolute;
+    top: 140%;
+    left: 45%;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.send:hover{
+    cursor: pointer;
+    background-color: rgb(153, 156, 156);
+    border:rgb(153, 156, 156);
+}
+.dez{
+    margin-left: 22%;
+    margin-top: 25%;
+    position: relative;
+}
+.gra2{
+    margin-right: 11px;
+}
+.send1{
+    position: absolute;
+    top: -50%;
+    left: 28%;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+}
+.fotinhos1,.fotinhos2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.b1{
+    position: absolute;
+    top: 0%;
+    left: 1%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+ 
+}
+.b2{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+}
+.b3{
+    position: absolute;
+    top: 0%;
+    left: 19%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+}
+.b4{
+    position: absolute;
+    top: 0%;
+    left: 28%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+}
+.b5{
+    position: absolute;
+    top: 0%;
+    left: 37%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+}
+.b6{
+    position: absolute;
+    top: 0%;
+    left: 46%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+}
+.b7{
+    position: absolute;
+    top: 0%;
+    left: 55%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+}
+.b8{
+    position: absolute;
+    top: 0%;
+    left:64%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+  
+}
+.b1:hover,.b2:hover,.b3:hover,.b4:hover,.b5:hover,.b6:hover,.b7:hover,.b8:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgba(2, 2, 2, 0.295);
+}
+.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8{
+    width: 8%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    
+}
+.a1:hover,.a2:hover,.a3:hover,.a4:hover,.a5:hover,.a6:hover,.a7:hover,.a8:hover{
+    cursor: pointer;
+}
+.b9{
+    position: absolute;
+    top: 0%;
+    left: 1%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+ 
+}
+.b10{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+}
+.b11{
+    position: absolute;
+    top: 0%;
+    left: 19%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+}
+.b12{
+    position: absolute;
+    top: 0%;
+    left: 28%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+}
+.b13{
+    position: absolute;
+    top: 0%;
+    left: 37%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+}
+.b14{
+    position: absolute;
+    top: 0%;
+    left: 46%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+}
+.b15{
+    position: absolute;
+    top: 0%;
+    left: 55%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+}
+.b16{
+    position: absolute;
+    top: 0%;
+    left:64%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(2, 2, 2, 0);
+    padding-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 29px;
+  
+}
+.b9:hover,.b10:hover,.b11:hover,.b12:hover,.b13:hover,.b14:hover,.b15:hover,.b16:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgba(2, 2, 2, 0.295);
+}
+.a9,.a10,.a11,.a12,.a13,.a14,.a15,.a16{
+    width: 8%;
+    margin-left: 1%;
+}
+.a9:hover,.a10:hover,.a11:hover,.a12:hover,.a13:hover,.a14:hover,.a15:hover,.a16:hover{
+    cursor: pointer;
+}
+.dark{
+
+    width: 15%;
+    margin-left: 45%;
+    margin-top: 10%;
+}
+.finsh{
+    text-align: center;
+    font-size: 10px;
+    margin-left: 5%;
+    letter-spacing: 6px;
+    margin-top: 1%;
+}
